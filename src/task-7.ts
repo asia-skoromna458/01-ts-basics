@@ -5,3 +5,5 @@ const getMessage = (): Promise<string> => {
     }, 1000);
   });
 }
+
+getMessage().then(result => console.log(result));

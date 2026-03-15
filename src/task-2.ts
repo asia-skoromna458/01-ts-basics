@@ -1,5 +1,5 @@
 interface Product {
-    id: number,
+    readonly id: number,
     title: string,
     description?: string,
 }
